@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Add information"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/name_field"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="Name"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:id="@+id/age_field"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="Age"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:id="@+id/country_field"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="Country"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:id="@+id/anything_field"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="Anything"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:id="@+id/price_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:hint="Price"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:text="Calculate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/add_button" />
+</LinearLayout>

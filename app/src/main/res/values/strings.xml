@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ubiqum Project</string>
+    <string name="product">Product</string>
+    <string name="empty_cart">You must be put some information</string>
+    <string name="total_to_pay">"Total: "</string>
+    <string name="current_coin">"€"</string>
+    <string name="main_head">Empty information</string>
+    <string name="order_sent">Order Sent</string>
+    <string name="product_added">" added"</string>
+    <string name="confirm_alert">CONFIRM</string>
+    <string name="confirm_message">If you click OK your order will be sent. No way back.</string>
+    <string name="sure_button">SURE</string>
+    <string name="cancel_button">CANCEL</string>
+    <string name="add_more_button">Add Information</string>
+    <string name="purchase_button">Calculate</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="checkout_title">Your result is:</string>
+    <string name="add_product_alert">Oooops</string>
+    <string name="add_product_message">You need to fill the name and the price of the product. Try Again.</string>
+    <string name="add_product_free_product">We don\'t have free products here. Sorry.</string>
+    <string name="alert_cart_empty">You need to add some products</string>
+    <string name="message_tittle">Your messages</string>
+    <string name="message_name">Messages</string>
+    <string name="goto_calculate">Go to Calculate</string>
+    <string name="goto_messages">GO to Messages</string>
+</resources>
